@@ -104,6 +104,9 @@ if !exists('g:airline_symbols')
 	let g:airline_symbols = {}
 endif
 
+" Jump to first or last row of currently visible rows.
+set scrolloff=0
+
 " --------------------------------------------------------------------- "
 " Powerline fonts for terminal from: https://github.com/powerline/fonts "
 " --------------------------------------------------------------------- "
