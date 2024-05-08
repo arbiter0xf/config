@@ -7,6 +7,13 @@ set colorcolumn=80
 " Highlight current line
 set cursorline
 
+syntax enable
+
+" Autoindent can be set with:
+" :set cindent
+" :set smartindent
+" :set autoindent
+
 let mapleader = ","
 
 nmap <F7> :tabp<CR>
