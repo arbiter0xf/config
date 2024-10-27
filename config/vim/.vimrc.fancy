@@ -1,5 +1,5 @@
 " =========================================================
-" Plugins / Plugins / Plugins / Plugins / Plugins / Plugins
+" Plugins
 " =========================================================
 set nocompatible	" Be iMproved, required
 filetype off		" required
@@ -56,7 +56,7 @@ call vundle#end()		" required
 filetype plugin indent on	" required
 
 " =========================================================
-" Visuals / Visuals / Visuals / Visuals / Visuals / Visuals
+" Visuals
 " =========================================================
 " Allow buffers to be hidden if buffer is modified
 set hidden
@@ -128,7 +128,7 @@ let g:airline_symbols.paste = '∥'
 let g:airline_symbols.whitespace = 'Ξ'
 
 " ==============================================================
-" Keymapping / Keymapping / Keymapping / Keymapping / Keymapping
+" Keymapping
 " ==============================================================
 let mapleader = ","
 
@@ -198,13 +198,13 @@ nmap <leader>ncd :NeoCompleteEnable<CR>
 nmap <leader>nce :NeoCompleteDisable<CR>
 
 " =====================================================
-" Help / Help / Help / Help / Help / Help / Help / Help
+" Help
 " =====================================================
 " :help syntastic-checkers " <- lists syntax checkers
 " :help vimwiki " <- help on wiki syntax
 
 " ====================================================
-" Remember / Remember / Remember / Remember / Remember
+" Remember
 " ====================================================
 
 " Format text to column width
@@ -216,7 +216,7 @@ nmap <leader>nce :NeoCompleteDisable<CR>
 " About vim registers: http://www.brianstorti.com/vim-registers/
 
 " ====================================================
-" External / External / External / External / External
+" External
 " ====================================================
 
 let g:neocomplete#enable_at_startup = 1
